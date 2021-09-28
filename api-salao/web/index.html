@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Salão</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="servicos.js"></script>
+</head>
+<body>
+    <h1>Hair's Marry</h1>
+
+    <div id="container">
+        <div id="acoes">
+            <input type="text" id="servico-titulo" placeholder="Título">
+            <input type="text" id="servico-descricao" placeholder="Descrição">
+            <input type="number" id="servico-valor" placeholder="Valor(R$)">
+            <input type="text" id="servico-data" placeholder="Data">
+            <input type="text" id="servico-situacao" placeholder="Situação (Aberto/Concluído/Cancelado)">
+            <input type="text" id="servico-comentarios" placeholder="Comentários">
+
+            <button id="btnNovoServico">Adicionar Serviço</button>
+        </div>
+
+        <div id="container-servicos">
+            <template id="servico-template">
+                <div class="servico">
+                    <p><strong>Título:</strong> <span></span></p>
+                    <p><strong>Descrição:</strong> <span></span></p>
+                    <p><strong>Valor(R$):</strong> <span></span></p>
+                    <p><strong>Data:</strong> <span></span></p>
+                    <p><strong>Situação:</strong> <span></span></p>
+                    <p><strong>Comentários:</strong> <span></span></p>
+
+                    <button id="editarServico">Editar</button>
+                </div>
+            </template>
+        </div>
+    </div>
+</body>
+</html>
+

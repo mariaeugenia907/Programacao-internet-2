@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans:wght@400;700&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F0E4D8;
+}
+
+h1 {
+    font-family: 'Great Vibes', cursive;
+    color: rgb(37, 37, 37);
+    font-size: 3rem;
+    margin-top: 30px;
+    text-align: center;
+}
+
+#container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#acoes {
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+input, button {
+    padding: 10px;
+    margin: 7px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+input {
+    width: 20rem;
+}
+
+button {
+    background-color: #812F33;
+    color: whitesmoke;
+    border: none;
+}
+
+#container-servicos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.servico {
+    font-size: 1.05rem;
+    background: #DF8E73;
+    margin: 10px;
+    width: 20rem;
+    height: 28rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;}
